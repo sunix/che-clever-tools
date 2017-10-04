@@ -9,6 +9,7 @@ RUN  sudo yum update -y && \
                           bzip2 \
                           bash-completion bash-completion-extras \
                           yum-utils device-mapper-persistent-data lvm2 \
+                          gcc gcc-c++ make \
                           file openssl-devel libstdc++-devel xdg-utils && \ 
      sudo yum clean all
 
